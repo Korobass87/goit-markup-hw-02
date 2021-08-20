@@ -15,7 +15,7 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
   background: var(--White-color);
-  color: var();
+  color: var(--contact-color);
 }
 a {
   text-decoration: none;
@@ -78,9 +78,7 @@ ul {
   font-weight: 700;
   line-height: 1.14;
 }
-.advantages-list-text {
-  color: var(--contact-color);
-}
+
 .services-title {
   font-weight: bold;
   font-size: 36px;
@@ -99,7 +97,6 @@ ul {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
-  color: var(--contact-color);
 }
 .footer {
   background-color: var(--background-color-footer);
