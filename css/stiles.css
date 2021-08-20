@@ -4,6 +4,8 @@
   --black-color: #000000;
   --link-color: #212121;
   --contact-color: #757575;
+  --background-button-color: #f5f4fa;
+  --background-color-footer: #2f303a;
 }
 body {
   font-family: "Roboto", "arial", sans-serif;
@@ -24,7 +26,6 @@ ul {
 .logo-header {
   color: var(--blue-color);
   font-family: "Raleway", "arial", sans-serif;
-  font-weight: 400;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -34,7 +35,7 @@ ul {
 .link {
   color: var(--link-color);
   font-weight: 500;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -46,7 +47,7 @@ ul {
   color: var(--contact-color);
 }
 .main-section {
-  background-color: #2f303a;
+  background-color: var(--background-color-footer);
 }
 .main-section-title {
   color: var(--White-color);
@@ -59,13 +60,14 @@ ul {
 .main-button {
   background-color: var(--blue-color);
   color: var(--White-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .invisible-title {
   display: none;
@@ -74,7 +76,6 @@ ul {
   color: var(--link-color);
 
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
 }
 .advantages-list-text {
@@ -101,18 +102,16 @@ ul {
   color: var(--contact-color);
 }
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-color-footer);
 }
 .footer {
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   font-style: normal;
 }
 .logo-footer {
   color: var(--blue-color);
   font-family: "Raleway", "arial", sans-serif;
-  font-weight: 400;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -131,4 +130,31 @@ ul {
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--blue-color);
+}
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--link-color);
+  background-color: var(--background-button-color);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--White-color);
+  background-color: var(--blue-color);
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--link-color);
+}
+.project-text {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--contact-color);
 }
