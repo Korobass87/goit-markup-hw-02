@@ -6,6 +6,7 @@
   --contact-color: #757575;
   --background-button-color: #f5f4fa;
   --background-color-footer: #2f303a;
+  --selection-main-buton: #188ce8;
 }
 body {
   font-family: "Roboto", "arial", sans-serif;
@@ -56,6 +57,7 @@ ul {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .main-button {
   background-color: var(--blue-color);
@@ -69,6 +71,10 @@ ul {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--selection-main-buton);
+}
 .invisible-title {
   display: none;
 }
@@ -76,7 +82,9 @@ ul {
   color: var(--link-color);
 
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .services-title {
@@ -154,4 +162,10 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   color: var(--contact-color);
+}
+.team-section {
+  background: var(--background-button-color);
+}
+.active-page {
+  color: var(--blue-color);
 }
